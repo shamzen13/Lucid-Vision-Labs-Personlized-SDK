@@ -1,0 +1,19 @@
+# build artifacts
+*.o
+*.d
+
+# compiled example binaries (match dir name, no extension)
+Examples/Arena/*/Cpp_Save
+Examples/Arena/*/Cpp_Save_Mono16
+Examples/Arena/*/Cpp_Save_Tiff
+
+OutputDirectory/
+Images/
+persist.json
+
+# symlinked SDK runtime (vendored on this machine, not tracked in git)
+/include
+/lib64
+/GenICam
+/ffmpeg
+/Metavision
