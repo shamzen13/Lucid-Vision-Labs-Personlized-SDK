@@ -1,0 +1,16 @@
+mkdir -p Images/Cpp_Save_Mono16
+make -C Cpp_Save_Mono16
+./Cpp_Save_Mono16/Cpp_Save_Mono16
+
+
+
+mkdir -p Images/Cpp_Save
+make -C Cpp_Save_Tiff
+./Cpp_Save_Tiff/Cpp_Save_Tiff
+
+
+mkdir -p Images/Cpp_Save
+make -C Cpp_Save
+./Cpp_Save/Cpp_Save
+
+
